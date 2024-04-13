@@ -1,0 +1,16 @@
+/** 
+    Fichier Custom.scss 
+    Inclurant tout Bootstrap
+*/
+
+// Inclure ci-dessous les variables qui surchargeront les variables par défaut de Bootstrap
+$primary: #906427;
+$secondary: #B6AC97;
+$dark: #392C1E;
+$bg-dark: #292222;
+$font-family-sans-serif: "Monserrat", sans-serif !default;
+$font-family-serif: "Hind Madurai", serif !default;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Puis, ajouter ci-après le code personnalisé supplémentaire
