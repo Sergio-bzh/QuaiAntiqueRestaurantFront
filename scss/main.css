@@ -11970,18 +11970,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-main {
-  margin-bottom: 250px;
-}
-
 p {
   font-family: "Hind Madurai", serif;
   font-size: 18px;
+  text-align: justify;
 }
 
-footer {
+footer.footer {
   padding: 15px;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
