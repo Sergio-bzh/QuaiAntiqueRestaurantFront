@@ -11985,6 +11985,7 @@ footer.footer {
 
 .hero-scene {
   position: relative;
+  margin-bottom: 1rem;
 }
 .hero-scene::before {
   content: "";
@@ -12023,4 +12024,14 @@ footer.footer {
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: all 0.3s;
+}
+
+.form-label {
+  color: #906427;
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    margin-bottom: 152px;
+  }
 }/*# sourceMappingURL=main.css.map */

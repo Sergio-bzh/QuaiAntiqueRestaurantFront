@@ -2,7 +2,7 @@
 @import './custom.scss';
 
 main {
-    // margin-bottom: 250px;
+    // margin-bottom: 152px;
 }
 
 p {
@@ -21,6 +21,7 @@ footer.footer {
 
 .hero-scene {
     position: relative;
+    margin-bottom: 1rem;
 
     &::before {
         content: "";
@@ -68,5 +69,15 @@ footer.footer {
         transform: translate(-50%, -50%);
         opacity: 0;
         transition: all 0.3s;
+    }
+}
+
+.form-label {
+    color: $primary;
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        margin-bottom: 152px;
     }
 }
