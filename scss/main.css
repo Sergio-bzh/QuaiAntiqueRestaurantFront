@@ -12008,13 +12008,25 @@ footer.footer {
 .image-card {
   position: relative;
 }
-.image-card:hover .titre-image {
+.image-card:hover .titre-image,
+.image-card:hover .action-image-buttons {
   opacity: 1;
 }
 .image-card:hover img {
   filter: brightness(0.3);
 }
 .image-card img {
+  transition: all 0.3s;
+}
+.image-card .action-image-buttons {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.33rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
   transition: all 0.3s;
 }
 .image-card .titre-image {
@@ -12028,6 +12040,12 @@ footer.footer {
 
 .form-label {
   color: #906427;
+}
+
+.all-reservations a {
+  display: block;
+  color: #000;
+  padding: 0.66rem;
 }
 
 @media screen and (min-width: 1200px) {
