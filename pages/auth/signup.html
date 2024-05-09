@@ -9,25 +9,46 @@
         <div class="mb-3">
             <label for="nameInput" class="form-label">Prénom</label>
             <input type="text" class="form-control" id="nameInput" placeholder="Votre prénom">
+            <div class="invalid-feedback">
+                Le prénom est requis
+            </div>
         </div>
         <div class="mb-3">
             <label for="familyNameInput" class="form-label">Nom</label>
             <input type="text" class="form-control" id="familyNameInput" placeholder="Votre nom">
+            <div class="invalid-feedback">
+                Le nom est requis
+            </div>
         </div>
         <div class="mb-3">
             <label for="emailInput" class="form-label">Email</label>
             <input type="email" class="form-control" id="emailInput" placeholder="Votre adresse e-mail">
+            <div class="invalid-feedback">
+                L'email n'est pas au bon format
+            </div>
         </div>
         <div class="mb-3">
             <label for="passwordInput" class="form-label">Mot de passe</label>
             <input type="password" class="form-control" id="passwordInput">
+            <div class="invalid-feedback">
+                Le mot de passe n'est pas assez robuste: Au moins 8 caratères, comprenant au moins 1 MAJUSCULE, 1 minuscule, 1 nombre et 1 caratères spécial 
+            </div>
+            <div class="valid-feedback">
+                Le mot de passe est robuste
+            </div>
         </div>
         <div class="mb-3">
             <label for="confirmPasswordInput" class="form-label">Confirmer votre mot de passe</label>
             <input type="password" class="form-control" id="confirmPasswordInput">
+            <div class="invalid-feedback">
+                La confirmation n'est pas identique au mot de passe
+            </div>
+            <div class="valid-feedback">
+
+            </div>
         </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-primary mb-3">M'inscrire</button>
+            <button type="submit" class="btn btn-primary mb-3 disabled" id="btn-signup">M'inscrire</button>
         </div>
     </form>
     <p class="text-center">Vous avez déjà compte <a href="/connexion">Connectez-vous</a></p>
